@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+
+
+.container {
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 1300px;
+    z-index: 1;
+    /* border: 2px solid black; */
+}
+.list {
+    display: inline;
+    list-style: none;
+    position: relative;
+    top: px;
+    left: 800px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    letter-spacing: 3px;
+}
+/* .listCONTACT */
+
+.head {
+    display: block;
+    position: relative;
+    width: max-content;
+    top: 30px;
+    left: 20px;
+    font-weight: 600;
+    font-size: xx-large;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.slides
+{
+    width: auto;
+    height: 615px;
+    border: 2px solid black;
+}
+.folio {
+    display: inline;
+    position: relative;
+    top: auto;
+    font-weight: 100;
+    font-size: -large;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.abt
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    border: none;
+    background-color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 950px;
+;
+
+}
+.abtt
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    border: none;
+    background-color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 1120px;
+    bottom: 21px;
+
+}
+
+.abt:hover {
+    /* transform: translateY(10); */
+    color: #AB886D;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+.abtt:hover {
+    /* transform: translateY(10); */
+    color: #AB886D;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-3px);
+}
+.resume {
+    position: relative;
+    /* margin-right: 25px; */
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 35px 10px 35px;
+    right: 12px;
+    
+
+
+
+}
+.project  {
+    position: relative;
+    /* margin-right: 25px; */
+    text-decoration: none;
+    color: #000000;
+    
+
+
+
+}
+
+
+.Body {
+    height: 901px;
+    width: 600px;
+    background-color: #ECDFCC;
+    /* border: 2px solid black; */
+}
+
+.Body2 {
+    height: 600px;
+    width: 400px;
+    background-color: #FCFAEE;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 250px;
+    top: 150px;
+    box-shadow: -10px 18px 20px 7px rgb(78 78 78 / 17%);
+    transition-duration: .3s;
+    border-radius: 20px;
+}
+.Body2:hover {
+    top: 140px;
+    transition: .3s;
+
+}
+
+/* .Body2:hover
+{
+    transform: translateY(-20px);
+
+} */
+.body2 {
+    /* position: relative; */
+    height: 50px;
+    width: 400px;
+    /* background-color: white; */
+    /* left: 0px;
+    top: 280px; */
+    /* border-radius: 20px; */
+    /* box-shadow: -3px 12px 20px 0px rgb(78 78 78 / 17%); */
+}
+
+.title {
+    position: relative;
+    top: 170px;
+    left: 55px;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.job {
+    position: relative;
+    top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-size: large;
+    font-style: normal;
+    width: max-content;
+}
+
+.job::before {
+    content: '';
+    background: #AB886D;
+    top: 30px;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.job:hover::before {
+    width: 100%;
+}
+
+.hey {
+
+    position: relative;
+    left: 720px;
+    top: auto;
+    bottom: 350px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    width: fit-content;
+}
+
+.here {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+
+}
+
+.discrption {
+    width: 500px;
+    position: relative;
+    top: 50px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+.to
+{
+    display: inline;
+    color: #AB886D;
+    font-size: xx-large;
+}
+
+
+.butt {
+    position: relative;
+
+}
+
+.but1 {
+    position: relative;
+    top: auto;
+    padding: 15px;
+    width: 150px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+    border: none;
+    font-optical-sizing: 200;
+    border-radius: 20px;
+    /* background-color: #FCFAEE; */
+    transition-duration: .3s;
+
+
+}
+
+.but1:hover {
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    transform: translateY(-3px);
+    
+}
+
+.but2:hover {
+    transform: translateY(-3px);
+    transition: 0.4s;
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.but2 {
+    position: relative;
+    top: auto;
+    padding: 15px;
+    width: 150px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+    border: none;
+    font-optical-sizing: 200;
+    border-radius: 20px;
+    transition-duration: .3s;
+
+}
+
+.image {
+
+    position: relative;
+    left: 100px;
+    top: 70px;
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    transition-timing-function: linear;
+    box-shadow: -20px 18px 18px 0px rgb(63 63 63 / 19%);
+    transition-duration: .2s;
+
+
+
+
+}
+
+
+/* From Uiverse.io by PapaUiiss404 */
+.card {
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 25px;
+    gap: 20px;
+    top: 209px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* box-shadow: -20px 18px 18px 0px rgb(63 63 63 / 19%); */
+    transition-duration: .3s;
+}
+
+.containerOne {
+    position: relative;
+    /* bottom: 10px; */
+    background-color: #cd486b;
+}
+
+.containerTwo {
+
+    background-color: #000000;
+}
+
+.containerThree {
+    background-color: #0072b1;
+
+}
+
+.containerFour {
+    background-color: #25D366;
+
+}
+
+/* instagram*/
+.containerOne:hover {
+    background-color: #cd486b;
+    transition-duration: .3s;
+    transform: translateY(-3px);
+    box-shadow: -13px 14px 20px 3px rgb(45 45 45 / 13%);
+
+}
+
+/* twitter*/
+.containerTwo:hover {
+    background-color: #000000;
+    transition-duration: .3s;
+    transform: translateY(-3px);
+
+    box-shadow: -13px 14px 20px 3px rgb(45 45 45 / 13%);
+
+}
+
+/* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+    transform: translateY(-3px);
+
+    box-shadow: -13px 14px 20px 3px rgb(45 45 45 / 13%);
+
+}
+
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: #25D366;
+    transition-duration: .3s;
+    transform: translateY(-3px);
+
+    box-shadow: -13px 14px 20px 3px rgb(45 45 45 / 13%);
+}
+
+/* .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  } */
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    from {
+        height: 0;
+
+    }
+
+    to {
+        height: 10px;
+    }
+}
+.footer
+{
+    position: relative;
+    height: 100px;
+    width: auto;
+    /* border: 2px solid black; */
+
+}
+.list2
+{
+    position: relative;
+    left: 800px;
+    top: 20px;
+    list-style: none;
+    display: inline-flex;
+}
+.mail2
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    font-style: normal;
+    position: relative;
+    /* left: 100px; */
+}
+.mail
+{
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-style: normal;
+    font-size: 15PX;
+}
+.mail a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.number
+{
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-size: 15PX;
+    font-style: normal;
+    font-stretch:narrower;
+    left: 60px;
+}
+.number1
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    font-style: normal;
+}
+.res:hover
+{
+    transform: translateY(-3px);
+}
+@media (max-width:1228px) 
+{
+     
+}

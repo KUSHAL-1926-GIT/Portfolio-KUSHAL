@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: fixed;
+    background-color: white;
+    height: 90px;
+    width: 1300px;
+    z-index: 1;
+    /* border: 2px solid black; */
+}
+
+.list {
+    display: inline;
+    list-style: none;
+    position: relative;
+    top: px;
+    left: 800px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    letter-spacing: 3px;
+}
+
+/* .listCONTACT */
+
+.head {
+    display: block;
+    position: relative;
+    width: max-content;
+    top: 30px;
+    left: 20px;
+    font-weight: 600;
+    font-size: xx-large;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.slides {
+    width: auto;
+    height: 615px;
+    border: 2px solid black;
+}
+
+.folio {
+    display: inline;
+    position: relative;
+    top: auto;
+    font-weight: 100;
+    font-size: -large;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.abt a {
+    text-decoration: none;
+    color: #000000;
+   
+    cursor: pointer;
+}
+.abt a:hover{
+    text-decoration: none;
+    color: #000000;
+    color: #AB886D;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+.abt {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    border: none;
+    background-color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 950px;
+
+}
+
+.abtt {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+    transition-duration: .3s;
+    border: none;
+    background-color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 1120px;
+    bottom: 21px;
+
+}
+
+.abt:hover {
+    /* transform: translateY(10); */
+    color: #AB886D;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+
+.abtt:hover {
+    /* transform: translateY(10); */
+    color: #AB886D;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+
+.resume {
+    position: relative;
+    /* margin-right: 25px; */
+    text-decoration: none;
+    color: #000000;
+
+
+
+
+}
+.Body1
+{
+    position: relative;
+    left: 60%;
+    height: 20px;
+    top: 100px;
+}
+
+.project {
+    position: relative;
+    /* margin-right: 25px; */
+    text-decoration: none;
+    color: #000000;
+
+}
+.Color
+{
+    height: 920px;
+    width: 600px;
+    background-color: #ECDFCC;
+    /* border-radius: 20px; */
+    /* border: 2px solid red; */
+}
+
+.Body1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.Body1 img:hover
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    
+}
+.color2:hover
+{
+    transform: translateY(-3px);
+}
+.color2
+{
+    height: 700px;
+    width: 500px;
+    background-color: #FCFAEE;
+    /* border: 2px solid black; */
+    position: relative;
+    right: 300px;
+    bottom: 50px;
+    box-shadow: -10px 18px 20px 7px rgb(78 78 78 / 17%);
+    transition-duration: .3s;
+    border-radius: 20px;
+    border-radius: 20px;
+    transition: 0.2s;
+    bottom: 550px;
+}
+.job {
+    position: relative;
+    top: 10px;
+    left: 300px;
+    font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 100;
+  letter-spacing: 3px;
+  /* font-style: normal; */
+}
+
+.job::before {
+    content: '';
+    background: #AB886D;
+    top: 35px;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.job:hover::before {
+    width: 25%;
+}
+.description
+{
+    position: relative;
+    left: 300px;
+    /* display: flex; */
+    top: 50px;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+/* .description data
+{
+    position: relative;
+    top: 20px;
+    right: 200px;
+} */
+
+.footer{
+
+    position: relative;
+    height: 100px;
+    width: auto;
+    /* top: 10px; */
+    /* border: 2px solid black; */
+}
+
+.list2 {
+    position: relative;
+    left: 800px;
+    top: 20px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.mail2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    font-style: normal;
+    position: relative;
+    /* left: 100px; */
+}
+
+.mail {
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-style: normal;
+    font-size: 15PX;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #412c2c;
+}
+
+.number {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-size: 15PX;
+    font-style: normal;
+    font-stretch: narrower;
+    left: 60px;
+}
+
+.number1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    font-style: normal;
+}
+
+.res:hover {
+    transform: translateY(-3px);
+}
